@@ -1,0 +1,300 @@
+.navbar {
+
+
+    background-color:rgb(31, 31, 180);
+    
+}
+/* Add this to your main container to push footer to bottom */
+.container.mt-5 {
+    min-height: 70vh; 
+}
+.card-custom {
+    background-color: #1252c7 !important; /* Use the exact hex code of your navbar */
+    border: none;
+    transition: transform 0.3s ease; /* Adds a nice hover effect */
+}
+
+.card-custom:hover {
+    transform: translateY(-5px); /* Card lifts slightly when hovered */
+    background-color: #1b3e80 !important; /* Slightly darker on hover */
+}
+
+
+.headline{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.dose-care-about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 82, 204, 0.08);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    color: #444;
+    text-align: center;
+  }
+
+  .highlight-box {
+    background-color: #f0f7ff;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #0052cc;
+    margin: 25px 0;
+    text-align: left;
+  }
+
+  .dose-care-about h2 {
+    color: #0052cc;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .tagline {
+    font-weight: 600;
+    color: #00d2ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+  }
+
+  .heart-icon {
+    color: #3ce759;
+    font-size: 1.5rem;
+  }
+
+  .signature {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  /* card design  */
+
+  .card-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /* The Card Design */
+  .dose-card {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden; /* Ensures image corners match card corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #e1e8ed;
+  }
+
+  /* Hover effect to make it interactive */
+  .dose-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 82, 204, 0.12);
+  }
+
+  /* Image Section */
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Keeps image from looking stretched */
+    background-color:white; /* Fallback color */
+  }
+
+  /* Content Section */
+  .card-content {
+    padding: 24px;
+    text-align: left;
+  }
+
+  .card-category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0052cc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin: 0 0 12px 0;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+    color: #5e6c84;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Action Button */
+  .card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0052cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+  }
+
+  .card-btn:hover {
+    background-color: #003d99;
+  }
+   /* footer side */
+
+   /* Slim Footer Styling */
+
+
+  #current-year {
+    font-weight: bold;
+    }       
+
+  /* register css */
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Centers it relative to the screen height */
+  width: 100%;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* 1. Fix the alignment of labels and inputs */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Stacks label on top of input */
+  align-items: flex-start; /* Aligns text to the left */
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* 2. Make inputs fill the width of the card */
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Crucial: prevents padding from breaking width */
+}
+
+/* 3. Fix the "Age" and "Phone" row */
+.form-row {
+  display: flex;
+  gap: 15px; /* Adds space between the two columns */
+  width: 100%;
+}
+
+.form-row .input-group {
+  flex: 1; /* Makes both columns equal width */
+}
+
+/* 4. Style the Button */
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4A4E69; /* Matches your header vibe */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+/* dashboard css */
+/* Dashboard Wrapper to handle centering */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f4f7f6; /* Professional background color */
+}
+
+/* Main Dashboard Card/Layout */
+.dashboard-card {
+    display: flex;
+    width: 95%;
+    max-width: 1200px; /* Limits width on very large screens */
+    height: 85vh;      /* Fixed height for a structured medical dashboard */
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Keeps sidebar and content inside rounded corners */
+}
+
+/* Sidebar Styling (FR2, FR21) */
+.sidebar {
+    width: 250px;
+    background-color: #4b4e6d; /* Consistent with your auth theme */
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Content Area */
+.main-content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto; /* Allows scrolling inside the dashboard only */
+}
+
+/* Adherence Table Styling (FR12, FR15) */
+.table-section {
+    margin-top: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #666;
+    border-bottom: 2px solid #eee;
+    padding: 10px;
+}
+
+td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Buttons (FR10) */
+.btn-yes { background-color: #2ecc71; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+.btn-no { background-color: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+
+
